@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Electrolize&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import "./reset.scss";
+@import "./header.scss";
+@import "./variables.scss";
+
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+.app {
+  padding: 10px;
+}
+
+main {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+  gap: 10px;
+  padding: 10px;
+
+  .card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+  
+    /* Kart hover efekti */
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    }
+  
+    h1 {
+      background-color: #8a2be2;
+      color: white;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+  
+    h3 {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+      text-align: center;
+      font-weight: 600;
+      color: #333;
+    }
+  
+    p:nth-of-type(1) {
+      color: #777;
+      font-size: 0.9rem;
+    }
+  
+    p:nth-of-type(2) {
+      color: #8a2be2;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+  
+    .bottom {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+      width: 100%;
+  
+      div {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        color: #555;
+  
+        span {
+          font-size: 1.2rem;
+          color: #8a2be2;
+        }
+  
+        span:nth-of-type(2) {
+          font-weight: 700;
+          color: #333;
+        }
+      }
+    }
+  
+    .buttons {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  
+      button {
+        color: white;
+        width: 35px;
+        height: 35px;
+        display: grid;
+        place-items: center;
+        border-radius: 50%;
+        transition: background 0.3s ease;
+  
+        &:nth-child(1) {
+          background-color: #4CAF50; /* Yeşil */
+          &:hover {
+            background-color: #45a049;
+          }
+        }
+  
+        &:nth-child(2) {
+          background-color: #f44336; /* Kırmızı */
+          &:hover {
+            background-color: #e53935;
+          }
+        }
+      }
+    }
+  }
+  
+}
+
+
+.app {
+  padding: 10px;
+}
+
+main {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+  gap: 10px;
+  padding: 10px;
+}
+
+.modal-open {
+  overflow: hidden;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 500px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  margin: 0;
+}
+
+.close {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #f44336; /* Kapatma butonunun kırmızı olması */
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.email-input {
+  display: flex;
+  align-items: center;
+}
+
+.email-input input {
+  flex: 1;
+  padding: 10px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.modal-actions button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.cancel-btn {
+  background-color: #ddd;
+  color: #333;
+}
+
+.save-btn {
+  background-color: #8a2be2; /* Mor renk */
+  color: white;
+}

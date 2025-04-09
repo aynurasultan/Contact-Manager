@@ -1,0 +1,256 @@
+{
+  "contact": [
+    {
+      "name": "Rümeysa",
+      "surname": "Baysal",
+      "company": "TechSoft",
+      "phone": "+90 532 123 4567",
+      "email": "rümeysabaysal@gmail.com",
+      "position": "React Developer",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Emre",
+      "surname": "Kaya",
+      "company": "TechSoft",
+      "phone": "+90 532 123 4567",
+      "email": "emrekaya@gmail.com",
+      "position": "Backend Developer"
+    },
+    {
+      "name": "Zeynep",
+      "surname": "Yılmaz",
+      "email": "zeynepyilmaz@gmail.com",
+      "phone": "+90 533 987 6543",
+      "position": "Software Engineer",
+      "company": "CodeLab",
+      "id": 3
+    },
+    {
+      "name": "Mehmet",
+      "surname": "Arslan",
+      "email": "mehmetarslan@gmail.com",
+      "phone": "+90 534 876 5431",
+      "position": "Product Manager",
+      "company": "InnovateX",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "name": "Elif",
+      "surname": "Demir",
+      "company": "SoftTech",
+      "phone": "+90 535 765 4321",
+      "email": "elifdemir@gmail.com",
+      "position": "UI/UX Designer"
+    },
+    {
+      "id": 6,
+      "name": "Ahmet",
+      "surname": "Çelik",
+      "company": "NextGen",
+      "phone": "+90 536 654 3210",
+      "email": "ahmetcelik@gmail.com",
+      "position": "DevOps Engineer"
+    },
+    {
+      "id": 7,
+      "name": "Burak",
+      "surname": "Şahin",
+      "company": "CyberLabs",
+      "phone": "+90 537 543 2109",
+      "email": "buraksahin@gmail.com",
+      "position": "Cybersecurity Specialist"
+    },
+    {
+      "id": 8,
+      "name": "Ayşe",
+      "surname": "Koç",
+      "company": "DataWave",
+      "phone": "+90 538 432 1098",
+      "email": "aysekoc@gmail.com",
+      "position": "Data Analyst"
+    },
+    {
+      "id": 9,
+      "name": "Kerem",
+      "surname": "Taş",
+      "company": "CloudNet",
+      "phone": "+90 539 321 0987",
+      "email": "keremtas@gmail.com",
+      "position": "Cloud Architect"
+    },
+    {
+      "id": 10,
+      "name": "Fatma",
+      "surname": "Öztürk",
+      "company": "AI Solutions",
+      "phone": "+90 540 210 9876",
+      "email": "fatmaozturk@gmail.com",
+      "position": "Machine Learning Engineer"
+    },
+    {
+      "id": 11,
+      "name": "Mustafa",
+      "surname": "Bülbül",
+      "company": "DeepMind",
+      "phone": "+90 541 109 8765",
+      "email": "mustafabulbul@gmail.com",
+      "position": "AI Research Scientist"
+    },
+    {
+      "id": 12,
+      "name": "Seda",
+      "surname": "Kurt",
+      "company": "CodeWave",
+      "phone": "+90 542 098 7654",
+      "email": "sedakurt@gmail.com",
+      "position": "Full Stack Developer"
+    },
+    {
+      "id": 13,
+      "name": "Hakan",
+      "surname": "Güneş",
+      "company": "QuantumTech",
+      "phone": "+90 543 987 6543",
+      "email": "hakangunes@gmail.com",
+      "position": "Quantum Computing Specialist"
+    },
+    {
+      "id": 14,
+      "name": "Buse",
+      "surname": "Ekinci",
+      "company": "NextEra",
+      "phone": "+90 544 876 5432",
+      "email": "buseekinci@gmail.com",
+      "position": "Mobile Developer"
+    },
+    {
+      "id": 15,
+      "name": "Can",
+      "surname": "Yücel",
+      "company": "NeuralWorks",
+      "phone": "+90 545 765 4321",
+      "email": "canyucel@gmail.com",
+      "position": "Neural Network Engineer"
+    },
+    {
+      "id": 16,
+      "name": "Melike",
+      "surname": "Altın",
+      "company": "ByteLogic",
+      "phone": "+90 546 654 3210",
+      "email": "melikealtin@gmail.com",
+      "position": "Systems Analyst"
+    },
+    {
+      "id": 17,
+      "name": "Cem",
+      "surname": "Tekin",
+      "company": "InfinityCode",
+      "phone": "+90 547 543 2109",
+      "email": "cemtekin@gmail.com",
+      "position": "Technical Lead"
+    },
+    {
+      "id": 18,
+      "name": "Gizem",
+      "surname": "Özkan",
+      "company": "DataFlow",
+      "phone": "+90 548 432 1098",
+      "email": "gizemozkan@gmail.com",
+      "position": "Business Intelligence Analyst"
+    },
+    {
+      "id": 19,
+      "name": "Okan",
+      "surname": "Akın",
+      "company": "AI Vision",
+      "phone": "+90 549 321 0987",
+      "email": "okanakin@gmail.com",
+      "position": "Computer Vision Engineer"
+    },
+    {
+      "id": 20,
+      "name": "Sinem",
+      "surname": "Yıldırım",
+      "company": "TechNova",
+      "phone": "+90 550 210 9876",
+      "email": "sinemyildirim@gmail.com",
+      "position": "QA Engineer"
+    },
+    {
+      "name": "Özge",
+      "surname": "Kaya",
+      "company": "Emaartech",
+      "phone": "55566678467",
+      "email": "özge@gmail.com",
+      "position": "Frontend Developer",
+      "id": 21
+    },
+    {
+      "name": "Saadet",
+      "surname": "Najaf",
+      "company": "Emaartech",
+      "phone": "5556667898",
+      "email": "saadet@gmail.com",
+      "position": "Frontend Developer",
+      "id": 22
+    },
+    {
+      "name": "Işıl",
+      "surname": "Avunduk",
+      "company": "Mimcode",
+      "phone": "5556667898",
+      "email": "ışıl@gmail.com",
+      "position": "React Developer",
+      "id": 23
+    },
+    {
+      "name": "Mehmet Can",
+      "surname": "Seyhan",
+      "company": "Udemig",
+      "phone": "5556667898",
+      "email": "mehmetcanseyhan@gmail.com",
+      "position": "CEO",
+      "id": 24
+    },
+    {
+      "name": "Özgür",
+      "surname": "Kaya",
+      "company": "Didiyos",
+      "phone": "5556667898",
+      "email": "özgür@gmail.com",
+      "position": "UI Designer",
+      "id": 26
+    },
+    {
+      "name": "Samet",
+      "surname": "Kolsuz",
+      "company": "Mimcode",
+      "phone": "55566678467",
+      "email": "samet@gmail.com",
+      "position": "Backend Frontend",
+      "id": 28
+    },
+    {
+      "name": "Enes",
+      "surname": "Arısoy",
+      "company": "Mimcode",
+      "phone": "5556667898",
+      "email": "enes@gmail.com",
+      "position": "FullStack Developer",
+      "id": 29
+    },
+    {
+      "name": "Erol",
+      "surname": "Balkoca",
+      "email": "erol@gmail.com",
+      "phone": "55566678469",
+      "position": "Backend Frontend",
+      "company": "Mimcode",
+      "id": 30
+    }
+  ]
+}
